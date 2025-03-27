@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="lighthouse, islands, surfing, bundoran, arranmore">
+  <meta name="description" content="tourguids, tour tips, bundoran, arranmore, surfing, lighthouse">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/Irish_clover.svg.png" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <title>Visit Donegal</title>
+
+</head>
+<body>
+    <header>
+        <img class="logo" alt="donegalcrest" src="images/Donegal_GAA_crest.png">
+        <img class="banner" src="images/panorama.jpg" alt="banner">
+      <h1 style="text-align: center;">Visit Donegal</h1>
+      <nav>
+        <ul>
+            <h2 class="navHeader"> Website Navigation </h2>
+            <li> <a href="home.html">Home</a></li>
+            <li> <a href="ourarea.html">Our Area</a></li>
+            <li> <a href="thecounty.html">The County</a></li>
+            <li class="active"> <a href="whattodo.html">What To Do?</a></li>
+        </ul>
+        </nav>
+      </header>
+
+      <main>
+        <article style="margin-bottom: 50px;">
+            <h2 style="text-align: center;">Interesting Things To Do</h2>
+
+            <h3>Surfing at Bundoran</h3>
+            <img class="indexPic" src="images/surfing.jpg" alt="surfbeach">
+            <p>Bundoran is a small town near the border of County Sligo, it's a very popular holiday destination for people wishing to have a "staycation". 
+               <br> However Bundoran is very famous for it's beaches and surfing facilities, people travel all over Ireland and some even travel abroad to visit it's crashing waves.
+               <br> 
+               If you would like to learn more about surfing in Bundoran <a href="https://discoverbundoran.com/surfing/">follow this link.</a>
+            </p>
+
+            <iframe class="mapEmbed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4635.73029634173!2d-8.284210079214995!3d54.48296107110219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485efd6df43e167f%3A0x3a1f7e9c92619fd9!2sBundoran%20Beach!5e0!3m2!1sen!2sie!4v1742991610313!5m2!1sen!2sie" 
+            width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+
+        <article style="margin-bottom: 50px;">
+            <h3>Arranmore Island</h3>
+            <img class="indexPic" src="images/arranmore.jpg" alt="arranmorelighhouse">
+            <p>Arranmore is a rural island just off the coast of west Donegal. It is only accessible by a ferry that leaves Burtonport, near Dungloe.<br>
+                It has a very small tight-knitted community which loves visitors alike who come to see the rugged coastlines and natural beauty.
+            <br>The island currently has a population of 478 residents and it is also a Gaeltacht area.<br>
+
+            Here is a <a href="https://arranmoreferry.com/?msclkid=3773b3e8d8191bd698c6d40b2edd63d1">link</a> to information about the ferry.</p>
+            <iframe class="mapEmbed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18306.93990292467!2d-8.544501057431905!3d55.00172302707971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485f6ffabbadbd75%3A0x7860a807c8d72ba0!2sLighthouse%20Steps!5e0!3m2!1sen!2sie!4v1742993151073!5m2!1sen!2sie" 
+            width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+
+        <article style="margin-bottom: 50px;">
+            <h3>Saint John's Point</h3>
+            <img class="indexPic" src="images/saintjohns.jpg" alt="ruins">
+            <p>Near the coast of the famous Killybegs in south west Donegal is the iconic Saint John's Point, a lonely lighthouse standing on the point of a coast and facing out to the Atlantic Ocean.<br>
+            It's an isolated place and is very much out of the way but it is a beautiful location and a visit is highly recommended.
+        
+            <iframe class="mapEmbed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9250.762494745788!2d-8.459474214919535!3d54.574204062730814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485f1c0be8ddf6c7%3A0x84946b3f4b85ad22!2sPoint%2C%20Co.%20Donegal!5e0!3m2!1sen!2sie!4v1742993775598!5m2!1sen!2sie" 
+            width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </article>
+
+        <section class="container">
+          <h4>Want to get in touch?</h4>
+          <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name here...">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name here...">
+
+            <label for="county">County</label>
+            <select id="county" name="county">
+              <option value="Donegal">Donegal</option>
+              <option value="Sligo">Sligo</option>
+              <option value="Galway">Galway</option>
+              <option value="Derry">Derry</option>
+              <option value="Dublin">Dublin</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something here..." style="height: 150px;"></textarea>
+            <input type="submit" value="submit">
+          </form>
+        </section>
+      </main>
+</body>
+
+<footer>
+  
+    <p> &copy; 2025 College Project</p>
+    </footer>
+  </body>
+  </html>

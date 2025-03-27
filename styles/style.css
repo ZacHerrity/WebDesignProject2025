@@ -1,0 +1,207 @@
+header{
+    background-color: #2E7D32;
+    width: 100%;
+    overflow: hidden;
+}
+
+header img.banner{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+header img.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 125px;
+    height: 100px;
+}
+
+nav{
+    background-color: #66BB6A;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px gold;
+    border-radius: 10px;
+    border: gold;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul li :hover{
+    background-color: #FFD700;
+    color: black;
+}
+
+nav ul :hover{
+    background-color: #FFD700;
+}
+
+nav ul.navHeader :hover{
+    background-color: #66BB6A;
+}
+
+.navHeader{
+    padding: 10px;
+    margin: 15px;
+    border: 2px #66BB6A;
+    border-radius: 5px;
+    border: solid #66BB6A;
+}
+
+.navHeader :hover{
+    background-color: #66BB6A;
+}
+
+body{
+    background-color: #F5F5DC;
+    font-family: Verdana, Geneva;
+    margin: 0;
+}
+
+body, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+    height: 75px;
+    width: 100px;
+    
+}
+
+.active{
+    background-color: orangered;
+}
+
+.donegal{
+    height: 25%;
+    width: 25%;
+    margin-bottom: 100px;
+    padding: 5px;
+    float: right;
+}
+.indexPic{
+    height: 250px;
+    width: 25%;
+    margin-bottom: 5px;
+    padding: 5px;
+    float: right;
+    border-radius: 20px;
+}
+
+.tableStyle{
+    padding-bottom: 100px;
+}
+
+table{
+    width: 80%;
+    border :1px solid white;
+    border-collapse: collapse;
+    font-size:x-large;
+    text-align: center;
+    vertical-align: middle;
+    padding :2px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+th,td {
+    border: 1px solid #2E7D32;
+    text-align: left;
+    padding: 8px;
+}
+
+thead th {
+  width: 25%;
+}
+
+.tabColour{
+    color:#2E7D32;
+    border-radius: 10px;
+    border-color: #2E7D32;
+}
+
+.tradMusic{
+    height: 250px;
+    width: 25%;
+    padding: 5px;
+    float: right;
+    margin-bottom: 250px;
+    border-radius: 20px;
+}
+
+.videoEmbed{
+    height: 250px;
+    width: 300px;
+}
+
+.mapEmbed{
+    align-self: center;
+    height: 300px; 
+    width: 25%;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 3px #F5F5DC; 
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: #F5F5DC;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: aliceblue;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
